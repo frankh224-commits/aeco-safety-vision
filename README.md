@@ -52,6 +52,57 @@ Dataset format: YOLO
 
 ---
 
+## How to Reproduce (Google Colab)
+
+This project can be reproduced entirely in the cloud using Google Colab.
+
+Steps:
+
+1. Open the training notebook from this repository in Google Colab.
+
+2. Install dependencies:
+
+pip install ultralytics roboflow
+
+3. Load the dataset from Roboflow.
+
+4. Train the YOLO model using the training notebook.
+
+5. The notebook will automatically generate:
+
+* training metrics
+* validation results
+* prediction outputs
+
+6. Run the inference notebook to test the trained model on new images.
+
+Expected runtime:
+
+* Google Colab CPU: ~8 minutes
+* Roboflow training: ~5 minutes
+
+
+## Results Summary
+
+Model performance on the validation dataset:
+
+* Precision: 38.1%
+* Recall: 34.9%
+* mAP@50: 37.3%
+* mAP50-95: 26.98%
+
+### Key Conclusions
+
+1. The model demonstrates moderate precision, meaning it can correctly identify safety equipment when detected.
+
+2. Recall is relatively low, indicating the model still misses several helmets and safety vests.
+
+3. Detection performance decreases in complex scenarios such as crowded scenes, small helmets, strong lighting, or selfie-style images.
+
+These results indicate that increasing the dataset size and diversity would significantly improve model performance.
+
+
+
 ## Model
 
 Model architecture:
