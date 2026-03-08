@@ -39,14 +39,14 @@ Dataset created using **Roboflow**.
 Dataset details:
 
 * Total images: **57**
-* Train: **41**
-* Validation: **12**
-* Test: **4**
-* Dataset version: **v4**
+* Train: **32**
+* Validation: **19**
+* Test: **6**
+* Dataset version: **v5**
 
 Dataset link:
 
-https://app.roboflow.com/franciscos-workspace-df3c6/aeco_safety_demo_v1-sccci/models/aeco_safety_demo_v1-sccci/4
+https://app.roboflow.com/franciscos-workspace-df3c6/aeco_safety_demo_v1-sccci/models/aeco_safety_demo_v1-sccci/5
 
 Dataset format: YOLO
 
@@ -68,5 +68,5 @@ Training configuration:
 Training time:
 
 * Google Colab: ~8 minutes
-* Roboflow training: ~5 minutes
+* Roboflow training: ~9 minutes
 
