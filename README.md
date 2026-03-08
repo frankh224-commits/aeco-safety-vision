@@ -121,3 +121,28 @@ Training time:
 * Google Colab: ~8 minutes
 * Roboflow training: ~9 minutes
 
+* ## Reproducibility Checklist
+
+Dataset:
+
+* Name: AECO Safety Demo
+* Version: v5
+* Total images: 57
+* Link: https://app.roboflow.com/franciscos-workspace-df3c6/aeco_safety_demo_v1-sccci/models/aeco_safety_demo_v1-sccci/4
+
+Model:
+
+* Architecture: YOLOv11 Object Detection (Fast)
+
+Training Parameters:
+
+* Epochs: 30
+* Batch size: 16
+* Image size: 640
+
+Environment:
+
+* Framework: Ultralytics YOLO
+* Platform: Google Colab
+
+
