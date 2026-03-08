@@ -145,4 +145,11 @@ Environment:
 * Framework: Ultralytics YOLO
 * Platform: Google Colab
 
+* ## Deliverables
+
+Slides and report for this project:
+
+- mini report: deliverables/aeco_safety_mini_report.docx
+- slides: deliverables/aeco_safety_slides.pdf
+
 
