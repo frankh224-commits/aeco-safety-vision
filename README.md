@@ -111,7 +111,7 @@ aeco-safety-vision
 ---
 ## Example Prediction
 
-![Example Prediction](results/evidence/example_prediction.jpg)
+![Example Prediction](results/evidence/mads-eneqvist-J9jYy9S1zAk-unsplash.jpg)
 
 ## License
 
